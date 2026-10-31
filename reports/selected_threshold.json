@@ -1,0 +1,6 @@
+{
+    "threshold": 0.99,
+    "selection_method": "Highest F1 among seven tested thresholds",
+    "validation": "5-fold cross-validation on training data",
+    "model": "Class-weighted Logistic Regression"
+}
