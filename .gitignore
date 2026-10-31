@@ -4,5 +4,15 @@ __pycache__/
 .DS_Store
 .vscode/
 .pytest_cache/
+
+# Exclude large datasets
 data/*.csv
+
+# Allow the small demonstration dataset
+!data/demo_transactions.csv
+
+# Exclude saved models by default
 models/*.joblib
+
+# Allow the final fraud detection model
+!models/random_forest_fraud_model.joblib
