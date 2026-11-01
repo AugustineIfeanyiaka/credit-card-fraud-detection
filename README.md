@@ -1,5 +1,20 @@
 # Credit Card Fraud Detection — Imbalanced Machine Learning
+## Live Application
 
+**[Launch Credit Card Fraud Detection App](https://credit-card-fraud-detection-bert5txk76bqn88kdkafny.streamlit.app)**
+
+This interactive application demonstrates credit card fraud detection
+using a trained Random Forest classifier.
+
+- Selected classification threshold: 0.45
+- Held-out test precision: 88.75%
+- Held-out test recall: 74.74%
+- Held-out test F1-score: 81.14%
+
+Users can select example legitimate and fraudulent transactions
+and view the model's classification scores.
+
+This is an educational demonstration, not a production fraud detection system.
 ## Project Overview
 
 This project investigates fraud detection using an anonymized credit-card transaction dataset containing 284,807 transactions and 492 labeled fraudulent transactions.
